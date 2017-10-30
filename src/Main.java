@@ -208,7 +208,7 @@ public class Main {
 
     static ImageIcon loadOptionsThumb(String filename, int plus) {
         try {
-            u = ImageIO.read(new File("Assets" + filename));
+            u = ImageIO.read(new File("../Assets" + filename));
         } catch (IOException e) {
         }
         return new ImageIcon(u.getScaledInstance((Options.getWidth() / 10) + plus, (Options.getWidth() / 10) + plus, Image.SCALE_SMOOTH));
