@@ -19,7 +19,7 @@ public class rulesWindow extends JDialog implements ActionListener {
 
         JLabel rules = new JLabel();
         try {
-            rules.setIcon(new ImageIcon(ImageIO.read(new File("rules.PNG")).getScaledInstance((int)(2*screen.getWidth()/3),(int) (7*screen.getHeight()/9), Image.SCALE_SMOOTH)));
+            rules.setIcon(new ImageIcon(ImageIO.read(new File("../Assets/rules.png")).getScaledInstance((int)(2*screen.getWidth()/3),(int) (7*screen.getHeight()/9), Image.SCALE_SMOOTH)));
         } catch(IOException i) {
             System.out.println("File not found");
         }
