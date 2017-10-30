@@ -1,0 +1,134 @@
+New Game
+LOADFLAG: false
+new Player: Player
+new Player: Computer
+File not found
+window: 960 button: 40.0
+Unable to find file Empty.gif
+------NEXT TURN-----
+currentTurn = false
+ENEMY PIECE @ 3, 4
+ -Potential Button @ 2,3
+ -Potential Button @ 2,4
+   -Potential move @ 2,4
+ -Potential Button @ 2,5
+ -Potential Button @ 3,5
+   -Potential move @ 3,5
+ -Potential Button @ 4,5
+ENEMY PIECE @ 4, 3
+ -Potential Button @ 3,2
+ -Potential Button @ 4,2
+   -Potential move @ 4,2
+ -Potential Button @ 5,2
+ -Potential Button @ 5,3
+   -Potential move @ 5,3
+ -Potential Button @ 5,4
+New Piece @ 3,5
+This Turn: 4 noMoveCount: 0
+------NEXT TURN-----
+currentTurn = true
+ENEMY PIECE @ 3, 3
+ -Potential Button @ 2,2
+ -Potential Button @ 2,3
+ -Potential Button @ 2,4
+ -Potential Button @ 3,2
+ -Potential Button @ 4,2
+ENEMY PIECE @ 3, 4
+ -Potential Button @ 2,3
+--Checked Before
+ -Potential Button @ 2,4
+--Checked Before
+ -Potential Button @ 2,5
+ -Potential Button @ 4,5
+ENEMY PIECE @ 3, 5
+ -Potential Button @ 2,4
+--Checked Before
+ -Potential Button @ 2,5
+--Checked Before
+ -Potential Button @ 2,6
+ -Potential Button @ 3,6
+ -Potential Button @ 4,5
+--Checked Before
+ -Potential Button @ 4,6
+ENEMY PIECE @ 4, 4
+ -Potential Button @ 4,5
+--Checked Before
+ -Potential Button @ 5,3
+ -Potential Button @ 5,4
+ -Potential Button @ 5,5
+This Turn: 3 noMoveCount: 0
+New Piece @ 2,3
+------NEXT TURN-----
+currentTurn = false
+ENEMY PIECE @ 2, 3
+ -Potential Button @ 1,2
+   -Potential move @ 1,2
+ -Potential Button @ 1,3
+ -Potential Button @ 1,4
+ -Potential Button @ 2,2
+   -Potential move @ 2,2
+ -Potential Button @ 2,4
+ -Potential Button @ 3,2
+   -Potential move @ 3,2
+ENEMY PIECE @ 3, 3
+ -Potential Button @ 2,2
+--Checked Before
+ -Potential Button @ 2,4
+--Checked Before
+ -Potential Button @ 3,2
+--Checked Before
+ -Potential Button @ 4,2
+   -Potential move @ 4,2
+ENEMY PIECE @ 4, 3
+ -Potential Button @ 3,2
+--Checked Before
+ -Potential Button @ 4,2
+--Checked Before
+ -Potential Button @ 5,2
+   -Potential move @ 5,2
+ -Potential Button @ 5,3
+ -Potential Button @ 5,4
+New Piece @ 5,2
+This Turn: 5 noMoveCount: 0
+------NEXT TURN-----
+currentTurn = true
+ENEMY PIECE @ 3, 4
+ -Potential Button @ 2,4
+ -Potential Button @ 2,5
+ -Potential Button @ 4,5
+ENEMY PIECE @ 3, 5
+ -Potential Button @ 2,4
+--Checked Before
+ -Potential Button @ 2,5
+--Checked Before
+ -Potential Button @ 2,6
+ -Potential Button @ 3,6
+ -Potential Button @ 4,5
+--Checked Before
+ -Potential Button @ 4,6
+ENEMY PIECE @ 4, 3
+ -Potential Button @ 3,2
+ -Potential Button @ 4,2
+ -Potential Button @ 5,3
+ -Potential Button @ 5,4
+ENEMY PIECE @ 4, 4
+ -Potential Button @ 4,5
+--Checked Before
+ -Potential Button @ 5,3
+--Checked Before
+ -Potential Button @ 5,4
+--Checked Before
+ -Potential Button @ 5,5
+ENEMY PIECE @ 5, 2
+ -Potential Button @ 4,1
+ -Potential Button @ 4,2
+--Checked Before
+ -Potential Button @ 5,1
+ -Potential Button @ 5,3
+--Checked Before
+ -Potential Button @ 6,1
+ -Potential Button @ 6,2
+ -Potential Button @ 6,3
+This Turn: 5 noMoveCount: 0
+Exit
+Options
